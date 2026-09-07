@@ -2,7 +2,7 @@ import axios from "axios"
 
 // creat axios instance for repetative code
 const api = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "https://interview-ai-backend-pmwt.onrender.com",
     withCredentials:true
 })
 
