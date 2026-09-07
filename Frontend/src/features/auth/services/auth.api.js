@@ -2,7 +2,7 @@ import axios from "axios"
 
 // creat axios instance for repetative code
 const api = axios.create({
-    baseURL: "https://interview-ai-backend-pmwt.onrender.com",
+    baseURL: import.meta.env.VITE_API_BASE_URL,
     withCredentials:true
 })
 
