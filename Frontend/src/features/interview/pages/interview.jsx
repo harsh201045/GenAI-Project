@@ -252,7 +252,7 @@ const Interview = () => {
                             <span className='match-score__value'>{report.matchScore}</span>
                             <span className='match-score__pct'>%</span>
                         </div>
-                        <p className='match-score__sub'>{scoreLabel}</p>
+                        <p className={`match-score__sub ${scoreColor}`}>{scoreLabel}</p>
                     </div>
 
                     <div className='sidebar-divider' />
